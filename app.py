@@ -153,7 +153,7 @@ if menu == "📊 대시보드 (시각화)":
 
 elif menu == "💻 자유 SQL 실습":
     st.title("💻 자유 SQL 실행기")
-    st.info("💡 학생 실습용 공간입니다. 데이터베이스 구조를 참고하여 자유롭게 SELECT 문을 작성해 보세요.")
+    st.info("💡 학생 실습용@@ 데이터베이스 구조를 참고하여 자유롭게 SELECT 문을 작성해 보세요.")
     
     sql_input = st.text_area("SQL 쿼리를 입력하세요:", placeholder="SELECT * FROM Track LIMIT 10;", height=150)
     
